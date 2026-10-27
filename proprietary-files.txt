@@ -56,6 +56,11 @@ vendor/bin/mcDriverDaemon
 vendor/lib64/libMcClient.so
 vendor/lib64/libMcRegistry.so
 
+# Audio - call DSP firmware (device specific, Note FE ones cause echo)
+etc/firmware/moon-dsp2-tx-nbwb.wmfw
+etc/firmware/moon-dsp3-tx-nbwb.bin
+etc/firmware/moon-dsp3-tx-nbwb.wmfw
+
 # NXP Noise Cancelling
 vendor/etc/nxp/AzControlParams_SPEAKER.txt
 vendor/etc/nxp/LVAZFS_Configuration.txt
